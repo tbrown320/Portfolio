@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Lilita One, Nunito Sans;
+    /* background: rgb(243, 248, 244); */
+}
+
+header section{
+    background: rgb(35, 66, 89);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 30px;
+}
+
+header section span{
+    color: rgb(211, 97, 60);
+    font-size: 13;
+}
+
+header nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+}
+
+header h2, header nav{
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav button{
+    background: rgb(211, 97, 60);
+    border-radius: 25px;
+    color: white;
+}
+
+
+.schedule{
+    background: rgb(211, 97, 60);
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.first_section{
+    /* border: 1px solid black; */
+    height: auto;
+    padding-left: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, rgba(35, 66, 89, 0.5), rgba(42, 44, 69, 0.5)), url('lobster-roll.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.first_section span:first-child{
+    color: rgb(244, 184, 161);
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.first_section h1{
+    color:white;
+    width: 40%;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.first_section p{
+    color: white;
+    width: 45%;
+    font-family: Nunito Sans;
+    /* font-weight: 100; */
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.first_section section{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 40%;
+    padding: 15px 0px;
+    border-radius: 25px;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.first_section span:last-child{
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 14px;
+}
+
+.first_section a{
+    text-decoration: none;
+    color: white
+}
+
+#how-to-button{
+    border: 1px solid white;
+}
+
+#menu-button{
+    background-color: rgb(211, 97, 60);
+}
+
+.first_section h1, .first_section span, .first_section p, .first_section a{
+    /* width: 50%; */
+    /* border: 1px, solid, black; */
+}
+
+.menu{
+    background: rgb(246, 243, 232);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 25px;
+    height: 500px;
+    padding-top: 70px;
+}
+
+.menu span, .menu h2, .menu p{
+    padding-right: 40%;
+    padding-top: 10px;
+}
+
+.menu span, .menu p{
+    font-family: Nunito Sans;
+}
+
+
+.food{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.water, .sides{
+    /* border: 1px solid black; */
+    /* border-radius: 4%; */
+    border-radius: 15px;
+    border-top: 4px solid black;
+    height: 200px;
+    width: 350px;
+    background: white;
+    margin: 25px 0px;
+    padding: 15px;
+    /* border-collapse: collapse; */
+}
+
+.sides{
+    border-color: rgb(211, 97, 60);
+}
+
+.water h3, .sides h3{
+    color: rgb(35, 66, 89)
+}
+
+td{
+    color: rgb(179, 46, 77);
+}
+
+.market{
+    font-style: italic;
+}
+
+.main-table, .sides-table{
+        /* border: 1px solid black; */
+        padding-top: 10px;
+        width: 100%;
+}
+
+.dinner-desc{
+    font-size: 10px;
+    font-family: Nunito Sans;
+}
+
+.water th, .sides th{
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+.water td, .sides td{
+    text-align: right;
+    /* border: 1px solid black; */
+
+}
+
+.menu span{
+    color: rgb(179, 46, 77);
+}
+
+.menu p:first-of-type{
+    font-size: 11px;
+}
+
+.menu p:last-child{
+    text-align: center;
+    /* justify-content: center; */
+    padding-right: 5px;
+}
+
+.how-to{
+    background: rgb(35, 66, 89);
+    height: auto;
+    padding: 50px 15%;
+}
+
+.how-to span:first-child{
+    color: rgb(242, 183, 160);
+    font-family: Nunito Sans;
+}
+
+.how-to h2, #first-time{
+    color:white;
+}
+
+#first-time{
+    width: 60%;
+    font-size: 12px;
+    font-family: Nunito Sans;
+    padding-bottom: 30px;
+}
+
+
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.steps-box{
+    border: 1px solid grey;
+    width: 175px;
+    height: auto;
+    border-radius: 4%;
+    padding: 15px;
+    color: whitesmoke;
+    background: rgb(57, 84, 103) ;
+}
+
+.steps-box p{
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: Nunito Sans;
+}
+
+
+.number{
+    background: rgb(211, 97, 60);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+}
+
+.find-us{
+    background: rgb(246, 243, 232);
+    height: auto;
+    padding: 50px 15%;
+}
+
+#find-wharf{
+    color: rgb(211, 97, 60);
+    font-size: 14px;
+    font-family: Nunito Sans;
+}
+
+.find-us h3{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.details{
+    font-family: Nunito Sans;
+    font-size: 12px;
+}
+
+
+.info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;
+    gap: 10px
+}
+
+.first-line{
+    color: rgb(57, 84, 103);
+    padding-bottom: 10px;
+}
+
+.info section{
+    /* border: 1px, solid black; */
+    background: white;
+    border-radius: 4%;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background: rgb(35, 66, 89);
+    padding: 50px 15%;
+    height: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.footer-top section{
+    /* border: 1px solid black; */
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.footer-top section span:first-child{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.footer-top p, .footer-top span:nth-child(2){
+    font-family: Nunito Sans;
+    font-size: 12px;
+    color: white;
+}
+
+.footer-bottom{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    /* align-items: left; */
+}
+
+@media (max-width: 1200px){
+    .menu{
+        height: auto;
+        
+    }
+
+    .first_section section{
+        width: auto;
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 1100px){
+    .info, .footer-top{
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+}
+
+@media (max-width: 950px){
+
+    header section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header section ul{
+        display: flex;
+        padding-left: 0px;
+        
+    }
+}
