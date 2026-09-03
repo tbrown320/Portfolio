@@ -1,0 +1,392 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     font-family: Open Sans, sans-serif;
+     /* border: 3px solid black; */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    background: white;
+    justify-content: space-around;
+    /* padding: 20px; */
+}
+
+header nav{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+header nav ul button{
+    margin-right: 40px;
+}
+
+.first-section{
+    background: rgb(239, 241, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#greylady{
+    width: 400;
+    height: auto;
+}
+
+.initiative{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.initiative img{
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.initiative span{
+    font-size: 44px;
+    text-align: center;
+}
+
+.initiative section p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.second-section{
+    background:white;
+}
+
+#ss-1, #ss-4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+#ss-1{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+.mission{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.second-section-p{
+    display: flex;
+    width: 350px;
+    font-size: 14px;
+    /* border-top: 3px solid pink; */
+}
+
+strong{
+    border-top: 3px solid pink;
+}
+
+.history{
+    background: rgb(239, 241, 243);
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.history-p span{
+    font-size: 24px;
+}
+
+.history-p{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 14px;
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+
+.history figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.history p{
+    width: 100%;
+    font-size: 20px;
+}
+
+.history img{
+    width: 300px;
+    height: auto;
+}
+
+#we-are{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.founder{
+    border: 1px solid lightgrey;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.founder img{
+    width: 280px;
+    height: auto;
+    padding: 5px 15px;
+}
+
+.bio{
+    /* border: 1px solid blue; */
+    padding: 20px;
+}
+
+.bio span{
+    font-weight: bold;
+}
+
+.bio p{
+    font-size: 24px;
+}
+
+.nonprofit{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.nonprofit p{
+    font-size: 22px;
+}
+
+#family{
+    width: 100%;
+}
+
+#family img{
+    width: 300px;
+    height: auto;
+}
+
+#simmons{
+    width: 100%;
+    padding-top: 20px;
+}
+#simmons img{
+    width: 100px;
+    height: auto;
+}
+
+.newsletter{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(174, 190, 201);
+    height: 50px;
+    gap: 150px;
+    font-size: 20px;
+}
+
+.newsletter span{
+    color: white;
+}
+
+footer{
+    /* border: 1px solid black; */
+    background: rgb(131, 146, 152);
+}
+
+.first-foot{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.first-foot-nav nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px
+}
+
+.first-foot-nav nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.second-foot{
+    /* padding-left: 5%; */
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.second-foot-nav{
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.second-foot-nav nav ul{
+    list-style: none;
+}
+
+.second-foot-nav nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.third-foot-nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.fourth-foot-nav{
+    /* border: 1px solid black; */
+}
+
+.fourth-foot-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    gap: 60px;
+    /* border: 1px solid black; */
+}
+
+.fourth-foot-nav nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (max-width: 1350px){
+    header{
+        height: auto;
+    }
+
+    header nav ul{
+        flex-wrap: wrap;
+        width: 100%;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1100px){
+    .history{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .history .images{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .first-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .founder, .founder img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nonprofit{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer, .newsletter{
+        height: auto;
+    }
+    .first-foot, .second-foot{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .second-foot{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter{
+        padding: 10px;
+    }
+}
