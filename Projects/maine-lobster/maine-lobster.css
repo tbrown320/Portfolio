@@ -112,17 +112,27 @@ header nav button{
 
 .first_section a{
     text-decoration: none;
+<<<<<<< HEAD
     color: white;
 }
 
 #how-to-button{
     justify-content: center;
+=======
+    color: white
+}
+
+#how-to-button{
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
     border: 1px solid white;
 }
 
 #menu-button{
     background-color: rgb(211, 97, 60);
+<<<<<<< HEAD
     justify-content: center;
+=======
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
 }
 
 .first_section h1, .first_section span, .first_section p, .first_section a{
@@ -403,6 +413,7 @@ footer{
         padding-left: 0px;
         
     }
+<<<<<<< HEAD
 }
 
 @media (max-width: 600px){
@@ -440,3 +451,6 @@ footer{
         gap: 15px
     }
 }
+=======
+}
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69

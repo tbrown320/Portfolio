@@ -217,7 +217,10 @@ nav ul a{
 .flavors h2{
     width: 400px;
     font-size: 30px;
+<<<<<<< HEAD
     padding: 10px 0px;
+=======
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
 }
 
 #special{
@@ -457,17 +460,24 @@ footer{
 @media (max-width: 825px){
     .about{
         height: auto;
+<<<<<<< HEAD
         width: auto;
+=======
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
     }
 
     footer{
         height: auto;
+<<<<<<< HEAD
         width: auto;
+=======
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
     }
 
     .more-info{
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         width: auto;
     }
 }
@@ -485,3 +495,8 @@ footer{
     header nav ul{ padding-right: 15px; gap: 12px; }
     header h2{ padding-left: 15px; }
 }
+=======
+    }
+}
+
+>>>>>>> c7bd3dc9d5abac22039fcacb5242161963a5de69
