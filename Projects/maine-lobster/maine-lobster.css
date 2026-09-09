@@ -112,15 +112,17 @@ header nav button{
 
 .first_section a{
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 #how-to-button{
+    justify-content: center;
     border: 1px solid white;
 }
 
 #menu-button{
     background-color: rgb(211, 97, 60);
+    justify-content: center;
 }
 
 .first_section h1, .first_section span, .first_section p, .first_section a{
@@ -400,5 +402,41 @@ footer{
         display: flex;
         padding-left: 0px;
         
+    }
+}
+
+@media (max-width: 600px){
+    .schedule {
+        height:auto;
+        min-height: 40px;
+        padding-bottom: 10px;
+    }
+
+    .first_section h1{
+        width: 90%;
+        font-size: 32px;
+    }
+
+    .first_section p{
+        width: 90%;
+    }
+
+    .menu span, .menu h2, .menu p{
+        padding-right: 5%;
+    }
+
+    .water, .sides{
+        width: 100%;
+        height: auto;
+    }
+
+    #first-time{
+        width: 90%;
+    }
+
+    header section{
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 15px
     }
 }

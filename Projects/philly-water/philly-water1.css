@@ -4,6 +4,10 @@
     font-family: Titan One, Nunito;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 header{
     background: rgb(212, 70, 98);
     color: white;
@@ -438,6 +442,15 @@ footer{
         padding: 10px
     }
 
+    header nav ul{
+        padding-right:15px;
+        gap: 12px;
+    }
+
+    header h2{
+        padding-left: 15px;
+    }
+
     #batches{
         width: auto;
         padding-right: 20px;
@@ -452,12 +465,25 @@ footer{
     .sizes{
         height: auto;
     }
+
+    .flavors h2, .sizes h3, .find-us h3{
+        width: auto;
+    }
 } 
 
 @media (max-width: 825px){
     .about{
         height: auto;
         width: auto;
+    }
+
+    .about span, .about h1, .about p, .about nav{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .about h1{
+        font-size: 32px;
     }
 
     footer{
@@ -470,18 +496,12 @@ footer{
         flex-direction: column;
         width: auto;
     }
+
 }
 
 @media (max-width: 600px){
-    .about h1{ font-size: 32px; }
-    .about span, .about h1, .about p, .about nav{
-        width: 90%;
-        margin-left: 5%;
+    header nav ul{
+        flex-direction: column;
+        font-size: 12px;
     }
-    .about p{ width: 90%; }
-
-    .flavors h2, .sizes h3, .find-us h3{ width: 90%; }
-
-    header nav ul{ padding-right: 15px; gap: 12px; }
-    header h2{ padding-left: 15px; }
 }
