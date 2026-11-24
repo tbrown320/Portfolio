@@ -29,7 +29,7 @@ A personal site for me, a full-stack software engineer with 5+ years in fintech 
 
 There is nothing to install and no build step — it is a static site.
 
-1. Open `Port-2/index.html` in a browser, or serve the folder:
+1. Open `Port-3/index.html` in a browser, or serve the folder:
    ```
    python3 -m http.server 8000
    ```
@@ -39,7 +39,7 @@ There is nothing to install and no build step — it is a static site.
 
 ```
 README.md                  - this file
-Port-2/                    - the portfolio site itself
+Port-3/                    - the portfolio site itself
   index.html               - hero, pipeline, pitch, work, background, mission, contact
   css/styles.css           - site styles (Engineer-First theme, literal colours)
   script.js                - mobile nav menu, footer year
@@ -49,8 +49,6 @@ Projects/                  - client website source
   maine-lobster/           - Slack Tide Lobster Shack site
   jwli/                    - JWLI site
 porfolio-page/             - earlier version of the portfolio page
-html5up-escape-velocity/   - HTML5 UP template copy
-html5up-prologue/          - HTML5 UP template copy
 ```
 
 ## Status
